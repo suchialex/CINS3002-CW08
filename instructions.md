@@ -237,22 +237,22 @@
 
 <details>
   <summary>
-    ✅ Same for modify_department, modify_salary
+    ✅ Same for modify_price, modify_quantity
   </summary>
 
-  - Do the same steps as above for modifying department and salary by calling the appropriate set methods (aka mutator methods) defined in the class
+  - Do the same steps as above for modifying price and quantity by calling the appropriate set methods (aka mutator methods) defined in the class
 </details>
 
 
 <details>
   <summary>
-    ✅ Modify display_employees()
+    ✅ Modify display_products()
   </summary>
 
   - Inside the for loop
-    - Get each data element using the loop variable (employee object) and the appropriate get methods
-    - For example, employee name would be  `<loop_variable>.get_name()` ⏩ 10-5b
-    - Do the same for other data elements, department, salary, email etc
+    - Get each data element using the loop variable (product object) and the appropriate get methods
+    - For example, product name would be  `<loop_variable>.get_name()` ⏩ 10-5b
+    - Do the same for other data elements - price and quantity
   - Display all these values in a tabular format
   - You may choose column widths and alignment to fit your data
 
@@ -261,31 +261,31 @@
 
 <details>
   <summary>
-    ✅ Call  display_employees()
+    ✅ Call  display_products()
   </summary>
 
-  - Uncomment appropriate code in employee_operations function to call display_employees()
-  - Test your code to make sure the employee(s) are being displayed correctly
+  - Uncomment appropriate code in product_operations function to call display_products()
+  - Test your code to make sure the product(s) are being displayed correctly
 </details>
 
 
 <details>
   <summary>
-    ✅ No action on delete_employee()
+    ✅ No action on delete_product()
   </summary>
 
-  - Nothing to change here, because we still have to delete an employee by deleting the dictionary element, which in this assignment is an object (it was a dictionary in the previous assignment)
+  - Nothing to change here, because we still have to delete an product by deleting the dictionary element, which in this assignment is an object (it was a dictionary in the previous assignment)
 </details>
 
 
 
 <details>
   <summary>
-    ✅ Call  delete_employee()
+    ✅ Call  delete_product()
   </summary>
 
-  - Uncomment code in employee_operations to call delete_employee()
-  - 📜 Execute your code and ensure ALL employee operations are being performed correctly
+  - Uncomment code in product_operations to call delete_product()
+  - 📜 Execute your code and ensure ALL product operations are being performed correctly
 </details>
 
 
@@ -296,8 +296,8 @@
     ✅ Copy code to replit
   </summary>
   
-  - Copy the contents of classes.py, validations.py and class_functions.py to replit under folder hw08
-  - Upload your employees.bin (it will NOT upload to hw08, you have to drag and drop it) or execute code and Add Employee to create a new employees.bin file
+  - Copy the contents of classes.py, validations.py and class_functions.py to replit under folder cw08
+  - Upload your products.bin (it will NOT upload to cw08, you have to drag and drop it) or execute code and Add Product to create a new products.bin file
   - Comment out the existing import statement and code in main function body
   - Copy the import statement and code from main.py in your PyCharm Project and paste it in the appropriate places in replit
   - Submit the URL on Canvas assignment
